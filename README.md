@@ -1,4 +1,15 @@
-# 💤 LazyVim
+<div align="left">
+    <img alt="GitHub Workflow Status" src="https://github.com/ramonvermeulen/lazyvim-config/actions/workflows/simple-ci.yaml/badge.svg?branch=main">
+</div>
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+# 💤 LazyVim Config
+This repository contains my personal [**lazyvim**](https://lazyvim.org/) configuration (e.g. plugins, keymaps, etc.).
+
+Should be cloned into: `~/.config/nvim`
+
+## installation
+Run the following:
+```bash
+git clone https://github.com/ramonvermeulen/lazyvim-config.git ~/.config/nvim
+```
+
