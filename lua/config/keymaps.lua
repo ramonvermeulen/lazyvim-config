@@ -3,4 +3,11 @@
 -- Add any additional keymaps here
 local keymap = vim.keymap
 
+-- normal mode
 keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>", { desc = "LazyGit" })
+keymap.set("n", "<leader>ds", "<cmd>Telescope lsp_document_symbols<cr>", { desc = "Telescope document symbols" })
+keymap.set("n", "<leader>cs", "<cmd>Telescope colorscheme<cr>", { desc = "Telescope color schema" })
+keymap.set("n", "<C-u>", "<C-u>zz") -- center after moving up/down
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-f>", "<C-f>zz")
+keymap.set("n", "<C-l>", "<C-l>zz")
