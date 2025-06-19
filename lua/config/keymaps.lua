@@ -11,3 +11,5 @@ keymap.set("n", "<C-u>", "<C-u>zz") -- center after moving up/down
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-f>", "<C-f>zz")
 keymap.set("n", "<C-l>", "<C-l>zz")
+
+keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Fuzzy find through file content via ripgrep" })
