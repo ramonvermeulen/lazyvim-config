@@ -4,6 +4,16 @@
 local opt = vim.opt
 
 opt.scrolloff = 10
+opt.relativenumber = false
+
+-- show ~ as EndOfBuffer character
+opt.fillchars = { eob = "~" }
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "*",
+  callback = function()
+    vim.api.nvim_set_hl(0, "EndOfBuffer", { fg = "#a0a0a0" })
+  end,
+})
 
 -- Highlight the 80th
 opt.colorcolumn = "80"

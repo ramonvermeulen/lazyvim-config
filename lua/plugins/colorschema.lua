@@ -1,8 +1,9 @@
 return {
+  { "EdenEast/nightfox.nvim", opts = { options = { transparent = true } } },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "default",
+      colorscheme = "carbonfox",
     },
   },
 }
