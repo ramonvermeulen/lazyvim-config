@@ -16,7 +16,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 })
 
 -- Highlight the 80th
-opt.colorcolumn = "80"
+opt.colorcolumn = "81"
 vim.cmd([[highlight ColorColumn ctermbg=lightgrey guibg=lightgrey]])
 
 -- options for quickscope to only enable on keypress
